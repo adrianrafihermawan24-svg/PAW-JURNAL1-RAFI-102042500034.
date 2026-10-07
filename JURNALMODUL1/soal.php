@@ -58,7 +58,7 @@
         // - Tangkap nilai dari form (Lihat atribut name="nama_lengkap" pada form di Task 7)
         // - Validasi agar nama tidak boleh kosong
         // - Validasi agar nama hanya berupa huruf (Hint : gunakan fungsi preg_match)
-        // silakan taruh kode kalian di bawah $nama = isset($_POST['nama_lengkap']) ? trim($_POST['nama_lengkap']) : "";
+        // silakan taruh kode kalian di bawah $nama 
         $nama = isset($_POST['nama_lengkap']) ? trim($_POST['nama_lengkap']) : "";
         if ($nama === "") {
             $namaErr = "Nama lengkap tidak boleh kosong";
